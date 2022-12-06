@@ -11,14 +11,20 @@
 		FBEC45A3293FBC3F00D2BE7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEC45A2293FBC3F00D2BE7A /* ContentView.swift */; };
 		FBEC45A5293FBC4100D2BE7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEC45A4293FBC4100D2BE7A /* Assets.xcassets */; };
 		FBEC45A8293FBC4100D2BE7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEC45A7293FBC4100D2BE7A /* Preview Assets.xcassets */; };
+		FBEC45B1293FBDB600D2BE7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC45AF293FBD6100D2BE7A /* UIKit.framework */; };
+		FBEC45D3293FCC9000D2BE7A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC45D2293FCC9000D2BE7A /* AVFoundation.framework */; };
+		FBEC45D6293FCDAA00D2BE7A /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC45D5293FCDA900D2BE7A /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FBEC459D293FBC3F00D2BE7A /* aiWritten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aiWritten.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEC45A0293FBC3F00D2BE7A /* aiWrittenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aiWrittenApp.swift; sourceTree = "<group>"; };
 		FBEC45A2293FBC3F00D2BE7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBEC45A4293FBC4100D2BE7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBEC45A7293FBC4100D2BE7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FBEC45AF293FBD6100D2BE7A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBEC45D2293FCC9000D2BE7A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FBEC45D5293FCDA900D2BE7A /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		FBEC45D9293FCF4900D2BE7A /* aiWritten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aiWritten.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +32,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEC45D3293FCC9000D2BE7A /* AVFoundation.framework in Frameworks */,
+				FBEC45B1293FBDB600D2BE7A /* UIKit.framework in Frameworks */,
+				FBEC45D6293FCDAA00D2BE7A /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,16 +45,9 @@
 			isa = PBXGroup;
 			children = (
 				FBEC459F293FBC3F00D2BE7A /* aiWritten */,
-				FBEC459E293FBC3F00D2BE7A /* Products */,
+				FBEC45AE293FBD6100D2BE7A /* Frameworks */,
+				FBEC45D9293FCF4900D2BE7A /* aiWritten.app */,
 			);
-			sourceTree = "<group>";
-		};
-		FBEC459E293FBC3F00D2BE7A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FBEC459D293FBC3F00D2BE7A /* aiWritten.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		FBEC459F293FBC3F00D2BE7A /* aiWritten */ = {
@@ -67,6 +69,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FBEC45AE293FBD6100D2BE7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC45D5293FCDA900D2BE7A /* AVKit.framework */,
+				FBEC45AF293FBD6100D2BE7A /* UIKit.framework */,
+				FBEC45D2293FCC9000D2BE7A /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -84,7 +96,7 @@
 			);
 			name = aiWritten;
 			productName = aiWritten;
-			productReference = FBEC459D293FBC3F00D2BE7A /* aiWritten.app */;
+			productReference = FBEC45D9293FCF4900D2BE7A /* aiWritten.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +123,7 @@
 				Base,
 			);
 			mainGroup = FBEC4594293FBC3F00D2BE7A;
-			productRefGroup = FBEC459E293FBC3F00D2BE7A /* Products */;
+			productRefGroup = FBEC4594293FBC3F00D2BE7A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -273,6 +285,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,6 +315,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
