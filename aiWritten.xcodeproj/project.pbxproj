@@ -14,6 +14,7 @@
 		FBEC45B1293FBDB600D2BE7A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC45AF293FBD6100D2BE7A /* UIKit.framework */; };
 		FBEC45D3293FCC9000D2BE7A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC45D2293FCC9000D2BE7A /* AVFoundation.framework */; };
 		FBEC45D6293FCDAA00D2BE7A /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC45D5293FCDA900D2BE7A /* AVKit.framework */; };
+		FBEC45DB2940281100D2BE7A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC45DA2940281100D2BE7A /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		FBEC45D2293FCC9000D2BE7A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		FBEC45D5293FCDA900D2BE7A /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		FBEC45D9293FCF4900D2BE7A /* aiWritten.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aiWritten.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEC45DA2940281100D2BE7A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBEC45DB2940281100D2BE7A /* QuartzCore.framework in Frameworks */,
 				FBEC45D3293FCC9000D2BE7A /* AVFoundation.framework in Frameworks */,
 				FBEC45B1293FBDB600D2BE7A /* UIKit.framework in Frameworks */,
 				FBEC45D6293FCDAA00D2BE7A /* AVKit.framework in Frameworks */,
@@ -72,6 +75,7 @@
 		FBEC45AE293FBD6100D2BE7A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FBEC45DA2940281100D2BE7A /* QuartzCore.framework */,
 				FBEC45D5293FCDA900D2BE7A /* AVKit.framework */,
 				FBEC45AF293FBD6100D2BE7A /* UIKit.framework */,
 				FBEC45D2293FCC9000D2BE7A /* AVFoundation.framework */,
